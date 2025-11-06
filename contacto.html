@@ -25,6 +25,9 @@
                         <label for="nombre">Nombre:</label>
                         <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre"><br><br>
 
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad" name="edad" min="18" max="100" required placeholder="Tu edad"><br><br>
+
                         <label for="email">Correo electrónico:</label>
                         <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com"><br><br>
 
@@ -32,7 +35,10 @@
                         <input type="tel" id="numero" name="numero" required placeholder="Tu número de contacto"><br><br>
 
                         <label for="visitar">¿Qué día vendría a vernos?</label>
-                        <input type="date" id="visitar" name="visitar">
+                        <input type="date" id="visitar" name="visitar"required ="Indique fecha de visita">
+
+                        <label for="codigopostal">Código postal:</label>
+                        <input type="text" id="codigopostal" name="codigopostal" pattern="^[0-9]{5}$" title="Incorrecto."required placeholder="41001"
                     </fieldset>
 
                     <fieldset>
@@ -41,7 +47,7 @@
                         <label for="texto">Cuentenos más sobre usted.</label>
                         <input type="text" id="texto" name="texto"><br><br>
 
-                        <label for="marca">¿Qué marca de coche prefiere?</label>
+                        <label for="marca">¿Qué marca de coche le gustaría adquirir?</label>
                         <select id="marca" name="marca">
                             <option>Lamborghini</option>
                             <option>Ferrari</option>
@@ -61,6 +67,11 @@
                             <option>Jaguar</option>
                             <option>Tesla</option>
                         </select>
+                        <br>
+                        <br>
+
+                        <label for="interes">Del 1 al 10, muestre el nivel de interés que tiene en el vehículo que quiere.</label>
+                        <input type="range" id="interes" name="nivel" min="1" max="10">
                     </fieldset>
                     <button type="submit">Enviar</button>
                 </form>
@@ -76,7 +87,7 @@
         </aside>
     </main>
     <footer>
-        <p>©2025 Luxury Cars. Todos los derechos reservados. Nº de contacto 666166166.</p>
+        <p><sup>©</sup>©2025 Luxury Cars. Todos los derechos reservados.<sup>©</sup> Nº de contacto 666166166.</p>
     </footer>
 </body>
 </html>
