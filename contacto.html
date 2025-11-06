@@ -18,49 +18,65 @@
     <main>
         <section id="contacto">
             <h2>Formulario de contacto.</h2>
-                <fieldset>
-                    <legend>Datos personales.</legend>
+                <form>
+                    <fieldset>
+                        <legend>Datos personales.</legend>
 
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre"><br><br>
 
-                    <label for="correo">Correo electrónico:</label>
-                    <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com"><br><br>
 
-                    <label for="numero">Número de contacto:</label>
-                    <input type="text" id="numero" name="numero" required placeholder="Tu número de contacto">
+                        <label for="numero">Número de contacto:</label>
+                        <input type="tel" id="numero" name="numero" required placeholder="Tu número de contacto"><br><br>
 
-                    <label for="visitar">¿Qué día vendría a vernos?</label>
-                    <input type="date" id="visitar" name="visitar">
-                </fieldset>
-                <fieldset>
-                    <legend>Información adicional.</legend>
+                        <label for="visitar">¿Qué día vendría a vernos?</label>
+                        <input type="date" id="visitar" name="visitar">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Información adicional.</legend>
                     
-                    <label for="texto">Cuentenos más sobre usted.</label
-                    <input type="text" id="texto" name="texto">
+                        <label for="texto">Cuentenos más sobre usted.</label>
+                        <input type="text" id="texto" name="texto"><br><br>
 
-                    <label for="marca">¿Qué marca de coche prefiere?</label>
-                    <select>
-                        <option>Lamborghini</option>
-                        <option>Ferrari</option>
-                        <option>Rolls Royce</option>
-                        <option>Koenigsegg</option>
-                        <option>McLaren</option>
-                        <option>Bentley</option>
-                        <option>Audi</option>
-                        <option>Mercedes Maybach</option>
-                        <option>Maserati</option>
-                        <option>Bugatti</option>
-                        <option>Aston Martin</option>
-                        <option>BMW</option>
-                        <option>Porsche</option>
-                        <option>Lexus</option>
-                        <option>Pagani</option>
-                        <option>Jaguar</option>
-                        <option>Tesla</option>
-                    </select>
-                </fieldset>
+                        <label for="marca">¿Qué marca de coche prefiere?</label>
+                        <select id="marca" name="marca">
+                            <option>Lamborghini</option>
+                            <option>Ferrari</option>
+                            <option>Rolls Royce</option>
+                            <option>Koenigsegg</option>
+                            <option>McLaren</option>
+                            <option>Bentley</option>
+                            <option>Audi</option>
+                            <option>Mercedes Maybach</option>
+                            <option>Maserati</option>
+                            <option>Bugatti</option>
+                            <option>Aston Martin</option>
+                            <option>BMW</option>
+                            <option>Porsche</option>
+                            <option>Lexus</option>
+                            <option>Pagani</option>
+                            <option>Jaguar</option>
+                            <option>Tesla</option>
+                        </select>
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                </form>
         </section>
+        <br>
+        <br>
+        <br>
+        <img src="images\CONCESIONARIO.jpg" alt="Concesionario por dentro">
+        <aside>
+            <h2>Horario de contacto</h2>
+            <p>Lunes a Jueves: 10:00 - 20:00</p>
+            <p>Viernes y Sábado: 10:00 - 14:00</p>
+        </aside>
     </main>
+    <footer>
+        <p>2025 Luxury Cars. Todos los derechos reservados. ©</p>
+    </footer>
 </body>
 </html>
