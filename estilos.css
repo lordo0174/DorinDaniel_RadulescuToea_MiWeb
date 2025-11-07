@@ -63,3 +63,18 @@ nav a:focus{
     color: var(--blanco);
     outline: none;
 }
+
+header{
+    margin-top: 50px;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    justify-content: center;
+    align-items: start;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
