@@ -11,3 +11,16 @@
 *::after {
     box-sizing:border-box;
 }
+
+:root{
+    --gris-oscuro: #2b2b2b;
+    --gris: #6e6e6e;
+    --gris-claro: #f4f4f6;
+    --morado-oscuro: #3b1f4a;
+    --morado: #6a2b8f;
+    --morado-claro: #b88bd6;
+    --blanco: #ffffff;
+    --sombra: 0px 6px 18px rgba(0,0,0,0.15);
+    --radio: 10px;
+    --ancho-contenedor:1100px;
+}
