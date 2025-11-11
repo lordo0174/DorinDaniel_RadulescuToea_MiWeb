@@ -285,11 +285,16 @@ input[type="range"]{
 }
 
 footer{
-    text-align: center;
     padding: 20px;
     background-color: var(--gris-oscuro);
     color: var(--gris-claro);
-    margin-top: 5px;
+    margin-top: 0;
+}
+
+footer p{
+    text-align: center;
+    margin: 0;
+    font-size: 0.9rem;
 }
 
 article::before{
@@ -308,4 +313,13 @@ main {
     background-image: url("images/FONDO.jpg");
     background-size: cover;
     background-position: center;
+}
+
+header,main{
+    margin:0;
+    padding:0;
+}
+
+header{
+    padding: 50px;
 }
