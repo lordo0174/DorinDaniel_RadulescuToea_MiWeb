@@ -73,8 +73,9 @@ header{
     color: var(--blanco);
     padding: 50px;
     padding-top: 50px;
-    border-radius: var(--radio);
+    border-radius: 0;
     border: 1px solid rgba(225, 225, 225, 0.06);
+    text-align: center;
 }
 
 header p{
@@ -145,7 +146,7 @@ aside{
     border-radius: 10px;
 }
 
-footer, section, article{
+section, article{
     padding:18px;
     margin: 12px 0;
     border: 1px solid rgba(0,0,0,0.05);
@@ -277,7 +278,16 @@ input[type="range"]{
 }
 
 #concesionariopordentro{
-    width: 100%;
+    width: 50%;
     display: block;
     border-radius: 10px;
+    margin-left: 30px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: var(--gris-oscuro);
+    color: var(--gris-claro);
+    margin-top: 5px;
 }
