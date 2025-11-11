@@ -65,8 +65,17 @@ nav a:focus{
 }
 
 header{
-    margin-top: 50px;
+    margin-top: 80px;
     position: relative;
+    background-image: linear-gradient(180deg, rgba(55, 2, 71, 0.85),rgba(0, 0, 0, 0.75)), url('images/LAMBORGHINIHEADLIGHTS.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--blanco);
+    padding: 50px;
+    border-radius: var(--radio);
+    border: 1px solid rgba(225, 225, 225, 0.06);
+
+
 }
 
 main{
