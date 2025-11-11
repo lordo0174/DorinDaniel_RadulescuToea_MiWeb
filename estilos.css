@@ -74,18 +74,16 @@ header{
     padding: 50px;
     border-radius: var(--radio);
     border: 1px solid rgba(225, 225, 225, 0.06);
-
-
 }
 
 main{
     display:grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 50px;
     max-width: var(--ancho-contenedor);
     align-items: start;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     padding-bottom: 20px;
 }
 
@@ -104,4 +102,19 @@ body>*{
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
+}
+
+h1{
+    font-family: 'Montserrat';
+    margin: 12px 0;
+    letter-spacing: 0.5px;
+    color: var(--blanco);
+    text-transform: capitalize;
+}
+
+h2,h3,h4{
+    font-family: 'Montserrat';
+    margin: 20px 0;
+    letter-spacing: 0.5px;
+    color: var(--morado-oscuro);
 }
