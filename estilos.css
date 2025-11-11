@@ -76,6 +76,13 @@ header{
     border: 1px solid rgba(225, 225, 225, 0.06);
 }
 
+header p{
+    opacity: 0.9;
+    text-align: left;
+    margin-top: 6px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
 main{
     display:grid;
     grid-template-columns: 3fr 1fr;
@@ -127,7 +134,7 @@ aside{
     border-radius: 10px;
 }
 
-main, footer, section, article, .tarjeta{
+footer, section, article{
     padding:18px;
     margin: 12px 0;
     border: 1px solid rgba(0,0,0,0.05);
@@ -140,6 +147,10 @@ main, footer, section, article, .tarjeta{
     box-shadow: var(--sombra);
     display: block;
     overflow: hidden;
+    padding: 18px;
+    margin: 12px 0;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 10px;
 }
 
 .tarjeta img{
