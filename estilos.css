@@ -298,3 +298,8 @@ article::before{
     margin-right: 8px;
     transform: translateY(2px);
 }
+
+p, td, li{
+    text-align: justify;
+    letter-spacing: 0.2px;
+}
