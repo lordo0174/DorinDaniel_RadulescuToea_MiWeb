@@ -193,3 +193,21 @@ ul ul{
     padding-left: 15px;
     color: var(--gris);
 }
+
+details{
+    background-color: rgba(255, 255, 255, 0.02);
+    padding: 12px;
+    display: inline-block
+    border-radius: 10px
+}
+details summary{
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--morado);
+}
+details[open]{
+    background-color: rgba(106, 43, 143, 0.06);
+details p{
+    margin-top: 10px;
+    color: var(--gris-oscuro);
+}
