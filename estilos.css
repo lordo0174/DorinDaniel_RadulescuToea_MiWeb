@@ -238,3 +238,7 @@ tfoot td{
     padding: 10px;
     text-align: left;
 }
+
+tbody tr:nth-child(even) td{
+    background-color: var(--gris);
+}
