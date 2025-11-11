@@ -197,17 +197,44 @@ ul ul{
 details{
     background-color: rgba(255, 255, 255, 0.02);
     padding: 12px;
-    display: inline-block
-    border-radius: 10px
+    display: block;
+    border-radius: 10px;
 }
 details summary{
     cursor: pointer;
     font-weight: 600;
-    color: var(--morado);
+    color: var(--blanco);
 }
 details[open]{
     background-color: rgba(106, 43, 143, 0.06);
+}
 details p{
     margin-top: 10px;
     color: var(--gris-oscuro);
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--gris-oscuro);
+}
+thead th{
+    background-color: var(--morado);
+    color: var(--gris-claro);
+    padding: 10px;
+    text-align: left;
+}
+tbody td{
+    padding: 10px;
+    background-color: var(--morado-claro);
+    color: var(--gris-claro);
+    border-bottom: 1px solid var(--morado-claro);
+    vertical-align: middle;
+}
+tfoot td{
+    background-color: var(--morado);
+    color: var(--gris-claro);
+    padding: 10px;
+    text-align: left;
 }
