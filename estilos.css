@@ -33,6 +33,7 @@ nav{
     width: 100%;
     z-index: 1000;
     background: rgba(43, 43, 43, 0.92);
+    border-radius: 10px 10px 10px 10px;
 }
 
 nav ul{
@@ -240,4 +241,26 @@ tfoot td{
 
 tbody tr:nth-child(even) td{
     background-color: var(--gris);
+}
+
+input, select, textarea, button {
+    font-family: "Montserrat";
+    font-size: 0.95rem;
+    padding: 10px;
+    border: 1px solid var(--gris);
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type="email"]{
+    border: 2px solid var(--morado);
+}
+input[type="number"]{
+    border: 2px solid var(--morado);
+}
+input[tyoe="range"]{
+    border: 2px solid var(--morado);
 }
