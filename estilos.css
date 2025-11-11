@@ -80,27 +80,27 @@ header{
 
 header p{
     opacity: 0.9;
-    text-align: left;
-    margin-top: 6px;
+    text-align: center;
+    margin-top: 0;
     color: rgba(255, 255, 255, 0.85);
 }
 
 main{
     display:grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 50px;
     max-width: var(--ancho-contenedor);
     align-items: start;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-bottom: 20px;
     align-items: start;
 }
 
 body{
     font-family: "Montserrat", sans-serif;
-    background-color: var(--gris-claro);
-    color: var(--gris-oscuro);
+    background-color: var(--sombra);
+    color: var(--blanco);
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -128,7 +128,7 @@ h2,h3,h4{
     font-family: 'Montserrat';
     margin: 20px 0;
     letter-spacing: 0.5px;
-    color: var(--morado-oscuro);
+    color: var(--morado);
 }
 
 h2{
@@ -139,17 +139,17 @@ h3{
 }
 
 aside{
-    background:rgba(48, 47, 47, 0.02);
+    background:var(--sombra);
     padding: auto;
     margin: auto;
-    display: block ;
+    display: block;
     border-radius: 10px;
 }
 
 section, article{
     padding:18px;
     margin: 12px 0;
-    border: 1px solid rgba(0,0,0,0.05);
+    border: 1px var(--sombra);
     background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.01));
     border-radius: 10px;
 }
@@ -198,12 +198,12 @@ article img{
 ul {
     list-style-type: disc;
     padding-left: 20px;
-    color: var(--gris-oscuro);
+    color: var(--blanco);
 }
 ul ul{
     list-style-type: circle;
     padding-left: 15px;
-    color: var(--gris);
+    color: var(--gris-claro);
 }
 
 details{
@@ -302,4 +302,10 @@ article::before{
 p, td, li{
     text-align: justify;
     letter-spacing: 0.2px;
+}
+
+main {
+    background-image: url("images/FONDO.jpg");
+    background-size: cover;
+    background-position: center;
 }
