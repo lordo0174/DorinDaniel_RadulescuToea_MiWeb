@@ -175,7 +175,6 @@ section, article{
     transform: translateY(-8px);
     box-shadow: 0 12px 24px rgba(0,0,0,0.2);
 }
-}
 
 article img{
     width: 100%;
@@ -301,6 +300,8 @@ footer p{
     text-align: center;
     margin: 0;
     font-size: 0.9rem;
+    opacity: 0.8;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 article::before{
@@ -330,3 +331,15 @@ header{
     padding: 50px;
 }
 
+fieldset{
+    border: 1px solid var(--morado-claro);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: var(--morado-oscuro);
+}
+
+input, number, range, select, textarea, button {
+    background-color: var(--gris-claro);
+    color: var(--gris-oscuro);
+}
