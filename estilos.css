@@ -259,7 +259,7 @@ input, select, textarea, button {
     font-family: "Montserrat";
     font-size: 0.95rem;
     padding: 10px;
-    border: 1px solid var(--gris);
+    border: 1px solid var(--morado);
     border-radius: 6px;
     width: 100%;
     box-sizing: border-box;
@@ -323,3 +323,4 @@ header,main{
 header{
     padding: 50px;
 }
+
