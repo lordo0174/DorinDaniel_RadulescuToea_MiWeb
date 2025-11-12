@@ -188,7 +188,7 @@ article img{
 #ubicacion {
     text-align: center;
     padding: 15px;
-    background-color: var(--gris-claro);
+    background-color: var(--morado-oscuro);
     border-radius: 10px;
     box-shadow: 0 6px 14px rgba(59,31,74,0.06);
 }
