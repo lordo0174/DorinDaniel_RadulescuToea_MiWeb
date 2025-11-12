@@ -171,6 +171,12 @@ section, article{
     border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
+.tarjeta:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+}
+
 article img{
     width: 100%;
     max-width: 500px;
